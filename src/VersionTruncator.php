@@ -192,7 +192,7 @@ class VersionTruncator extends DataExtension
                 'DELETE FROM "%s_Versions"
                     WHERE "Version" IN (%s)
                     AND "RecordID" = %d',
-                $table,
+                str_replace("_Live", "", $table),
                 implode(',', $to_delete),
                 $this->owner->ID
             );
