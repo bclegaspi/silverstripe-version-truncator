@@ -1,5 +1,5 @@
 {
-    "name": "axllent/silverstripe-version-truncator",
+    "name": "bclegaspi/silverstripe-version-truncator",
     "description": "Automatically delete old versioned Silverstripe records from the database",
     "type": "silverstripe-vendormodule",
     "homepage": "https://github.com/axllent/silverstripe-version-truncator",
